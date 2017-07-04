@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2017/07/04/Java%E8%B5%84%E6%BA%90%E7%BB%91%E5%AE%9A%EF%BC%88ResourceBundle%EF%BC%89%E7%A4%BA%E4%BE%8B/</loc>
     
-    <lastmod>2017-05-02T03:19:15.921Z</lastmod>
+    <lastmod>2017-07-04T15:42:19.902Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2017/05/02/my-first-blog/</loc>
     
-    <lastmod>2017-05-02T01:44:53.196Z</lastmod>
+    <lastmod>2017-07-04T15:30:50.705Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/07/04/Java%E4%B8%AD%E5%A0%86%E5%86%85%E5%AD%98%E5%92%8C%E6%A0%88%E5%86%85%E5%AD%98%E8%AF%A6%E8%A7%A3/</loc>
+    
+    <lastmod>2017-07-04T15:29:13.924Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2017-05-02T03:19:15.921Z</lastmod>
     
   </url>
   
