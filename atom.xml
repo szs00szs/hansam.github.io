@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansam.cc/"/>
-  <updated>2017-07-18T15:09:36.983Z</updated>
+  <updated>2017-07-18T15:27:05.933Z</updated>
   <id>http://www.hansam.cc/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.hansam.cc/2017/07/18/java%E7%89%B9%E6%AE%8A%E6%B3%A8%E9%87%8A/"/>
     <id>http://www.hansam.cc/2017/07/18/java特殊注释/</id>
     <published>2017-07-18T15:01:13.000Z</published>
-    <updated>2017-07-18T15:09:36.983Z</updated>
+    <updated>2017-07-18T15:27:05.933Z</updated>
     
     <content type="html"><![CDATA[<h2 id="java中的特殊注释："><a href="#java中的特殊注释：" class="headerlink" title="java中的特殊注释："></a>java中的特殊注释：</h2><hr>
 <h3 id="1-TODO"><a href="#1-TODO" class="headerlink" title="1. TODO"></a>1. TODO</h3><blockquote>
@@ -47,7 +47,8 @@
 </blockquote>
 <p><strong>eclipse中特殊的注释：</strong></p>
 <blockquote>
-<p>在eclipse中，TODO、FIXME和XXX都会被eclipse的task视图所收集。在项目发布前，检查一下task视图是一个很好的习惯。此外，在eclipse中，我们可自定义自己的特殊注释标签。如在C/C++中，进入window—&gt;preferences—&gt;C/C++—&gt;Task Tags窗口即可添加特殊标签，默认只有TODO、FIXME和XXX。</p>
+<p>在eclipse中，TODO、FIXME和XXX都会被eclipse的task视图所收集。在项目发布前，检查一下task视图是一个很好的习惯。此外，在eclipse中，我们可自定义自己的特殊注释标签。如在Java中，进入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">A[Windows] --&gt; B[Java] </div><div class="line">B --&gt; C[Compiler]</div><div class="line">C --&gt; D[Task Tags]</div></pre></td></tr></table></figure></p>
+<p>窗口即可添加特殊标签，默认只有TODO、FIXME和XXX。</p>
 </blockquote>
 ]]></content>
     
