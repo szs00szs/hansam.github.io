@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansam.cc/"/>
-  <updated>2017-07-09T13:36:37.943Z</updated>
+  <updated>2017-07-18T15:09:36.983Z</updated>
   <id>http://www.hansam.cc/</id>
   
   <author>
@@ -14,6 +14,85 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java特殊注释</title>
+    <link href="http://www.hansam.cc/2017/07/18/java%E7%89%B9%E6%AE%8A%E6%B3%A8%E9%87%8A/"/>
+    <id>http://www.hansam.cc/2017/07/18/java特殊注释/</id>
+    <published>2017-07-18T15:01:13.000Z</published>
+    <updated>2017-07-18T15:09:36.983Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="java中的特殊注释："><a href="#java中的特殊注释：" class="headerlink" title="java中的特殊注释："></a>java中的特殊注释：</h2><hr>
+<h3 id="1-TODO"><a href="#1-TODO" class="headerlink" title="1. TODO"></a>1. TODO</h3><blockquote>
+<p>表示需要实现，但目前还未实现的功能</p>
+</blockquote>
+<h3 id="2-XXX"><a href="#2-XXX" class="headerlink" title="2. XXX"></a>2. XXX</h3><blockquote>
+<p>勉强可以工作，但是性能差等原因</p>
+</blockquote>
+<h3 id="3-FIXME"><a href="#3-FIXME" class="headerlink" title="3. FIXME"></a>3. FIXME</h3><blockquote>
+<p>代码是错误的，不能工作，需要修复</p>
+</blockquote>
+<hr>
+<p><strong>TODO: + 说明：</strong></p>
+<blockquote>
+<p>如果代码中有该标识，说明在标识处有功能代码待编写，待实现的功能在说明中会简略说明。</p>
+</blockquote>
+<p><strong>FIXME: + 说明：</strong></p>
+<blockquote>
+<p>如果代码中有该标识，说明标识处代码需要修正，甚至代码是错误的，不能工作，需要修复，如何修正会在说明中简略说明。</p>
+</blockquote>
+<p><strong>XXX: + 说明：</strong></p>
+<blockquote>
+<p>如果代码中有该标识，说明标识处代码虽然实现了功能，但是实现的方法有待商榷，希望将来能改进，要改进的地方会在说明中简略说明。</p>
+</blockquote>
+<p><strong>eclipse中特殊的注释：</strong></p>
+<blockquote>
+<p>在eclipse中，TODO、FIXME和XXX都会被eclipse的task视图所收集。在项目发布前，检查一下task视图是一个很好的习惯。此外，在eclipse中，我们可自定义自己的特殊注释标签。如在C/C++中，进入window—&gt;preferences—&gt;C/C++—&gt;Task Tags窗口即可添加特殊标签，默认只有TODO、FIXME和XXX。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;java中的特殊注释：&quot;&gt;&lt;a href=&quot;#java中的特殊注释：&quot; class=&quot;headerlink&quot; title=&quot;java中的特殊注释：&quot;&gt;&lt;/a&gt;java中的特殊注释：&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;1-TODO&quot;&gt;&lt;a href=&quot;#1-TODO
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://www.hansam.cc/tags/java/"/>
+    
+      <category term="笔记" scheme="http://www.hansam.cc/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fastjson基础测试</title>
+    <link href="http://www.hansam.cc/2017/07/17/fastjson%E5%9F%BA%E7%A1%80%E6%B5%8B%E8%AF%95/"/>
+    <id>http://www.hansam.cc/2017/07/17/fastjson基础测试/</id>
+    <published>2017-07-17T14:57:53.000Z</published>
+    <updated>2017-07-18T14:56:12.822Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="fastjson使用测试"><a href="#fastjson使用测试" class="headerlink" title="fastjson使用测试"></a>fastjson使用测试</h3><hr>
+<figure class="highlight processing"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> cc.hansam.mystudy.json;</div><div class="line"></div><div class="line"><span class="keyword">import</span> java.util.Map;</div><div class="line"></div><div class="line"><span class="keyword">import</span> com.alibaba.fastjson.JSON;</div><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line"> * @author hansam 945210972@qq.com</div><div class="line"> * @date 2017年7月17日下午4:59:16</div><div class="line"> */</div><div class="line"><span class="keyword">public</span> class JSONTest &#123;</div><div class="line"></div><div class="line"></div><div class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main(<span class="keyword">String</span>[] args) &#123;</div><div class="line">		Person person = <span class="keyword">new</span> Person();</div><div class="line">		person.setId(<span class="number">1</span>);</div><div class="line">		person.setName(<span class="string">"shi"</span>);</div><div class="line">		person.setAge(<span class="number">22</span>);</div><div class="line">		person.setSex(<span class="string">"male"</span>);</div><div class="line"></div><div class="line">		<span class="comment">// object to jsonstring</span></div><div class="line">		<span class="keyword">String</span> jString = JSON.toJSONString(person);</div><div class="line">		System.out.<span class="built_in">println</span>(jString);</div><div class="line">		</div><div class="line">		<span class="comment">// jsonstring parse to map</span></div><div class="line">		Map&lt;<span class="keyword">String</span>,<span class="keyword">String</span>&gt; <span class="built_in">map</span> = (Map&lt;<span class="keyword">String</span>, <span class="keyword">String</span>&gt;)JSON.parse(jString);</div><div class="line">		System.out.<span class="built_in">println</span>(<span class="built_in">map</span>.<span class="built_in">get</span>(<span class="string">"name"</span>));</div><div class="line"></div><div class="line">		</div><div class="line">		<span class="comment">// jsonstring pare to object</span></div><div class="line">		<span class="keyword">String</span> <span class="built_in">str</span> = <span class="string">"&#123;\"age\":22,\"id\":1,\"name\":\"shi\",\"sex\":\"male\",\"dea\":\"male\",\"sasa\":\"male\"&#125;"</span>;</div><div class="line">		Person p = JSON.parseObject(<span class="built_in">str</span>, Person.class);</div><div class="line">		System.out.<span class="built_in">println</span>(p);</div><div class="line">		</div><div class="line">		<span class="comment">/**</span></div><div class="line">		 * fastjson 转换key不区分大小写，转换没有明确的对应关系（多对多）</div><div class="line">		 */</div><div class="line">	&#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>结论：</p>
+<blockquote>
+<p>fastjson 转换key不区分大小写，转换没有明确的对应关系（多对多）</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;fastjson使用测试&quot;&gt;&lt;a href=&quot;#fastjson使用测试&quot; class=&quot;headerlink&quot; title=&quot;fastjson使用测试&quot;&gt;&lt;/a&gt;fastjson使用测试&lt;/h3&gt;&lt;hr&gt;
+&lt;figure class=&quot;highlight pro
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://www.hansam.cc/tags/java/"/>
+    
+      <category term="json" scheme="http://www.hansam.cc/tags/json/"/>
+    
+  </entry>
   
   <entry>
     <title> 广告投放方式：CPC、CPM、CPA、CPS、CPT</title>
