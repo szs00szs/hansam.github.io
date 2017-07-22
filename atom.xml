@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansam.cc/"/>
-  <updated>2017-07-22T15:51:02.591Z</updated>
+  <updated>2017-07-22T15:53:51.765Z</updated>
   <id>http://www.hansam.cc/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Java Sockett编程</title>
+    <title>Java Socket编程</title>
     <link href="http://www.hansam.cc/2017/07/22/Java-Sockett%E7%BC%96%E7%A8%8B/"/>
     <id>http://www.hansam.cc/2017/07/22/Java-Sockett编程/</id>
     <published>2017-07-22T15:34:51.000Z</published>
-    <updated>2017-07-22T15:51:02.591Z</updated>
+    <updated>2017-07-22T15:53:51.765Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Java-Socket编程"><a href="#Java-Socket编程" class="headerlink" title="Java Socket编程"></a>Java Socket编程</h2><hr>
 <p><strong>Java</strong>最初是作为网络编程语言出现的，其对网络提供了高度的支持，而在网络编程中，使用最多的就是Socket。QQ、MSN都使用了Socket相关的技术。</p>
