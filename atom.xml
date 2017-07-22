@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansam.cc/"/>
-  <updated>2017-07-22T15:53:51.765Z</updated>
+  <updated>2017-07-22T16:07:45.768Z</updated>
   <id>http://www.hansam.cc/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://www.hansam.cc/2017/07/22/Java-Sockett%E7%BC%96%E7%A8%8B/"/>
     <id>http://www.hansam.cc/2017/07/22/Java-Sockett编程/</id>
     <published>2017-07-22T15:34:51.000Z</published>
-    <updated>2017-07-22T15:53:51.765Z</updated>
+    <updated>2017-07-22T16:07:45.768Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Java-Socket编程"><a href="#Java-Socket编程" class="headerlink" title="Java Socket编程"></a>Java Socket编程</h2><hr>
-<p><strong>Java</strong>最初是作为网络编程语言出现的，其对网络提供了高度的支持，而在网络编程中，使用最多的就是Socket。QQ、MSN都使用了Socket相关的技术。</p>
+    <content type="html"><![CDATA[<p><strong>Java</strong>最初是作为网络编程语言出现的，其对网络提供了高度的支持，而在网络编程中，使用最多的就是Socket。QQ、MSN都使用了Socket相关的技术。</p>
 <hr>
 <h3 id="一、计算机网络基础"><a href="#一、计算机网络基础" class="headerlink" title="一、计算机网络基础"></a>一、计算机网络基础</h3><h4 id="1-两台计算机间进行通讯需要以下三个条件："><a href="#1-两台计算机间进行通讯需要以下三个条件：" class="headerlink" title="1. 两台计算机间进行通讯需要以下三个条件："></a>1. 两台计算机间进行通讯需要以下三个条件：</h4><blockquote>
 <p>ip地址、协议、端口号</p>
@@ -72,8 +71,9 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Java-Socket编程&quot;&gt;&lt;a href=&quot;#Java-Socket编程&quot; class=&quot;headerlink&quot; title=&quot;Java Socket编程&quot;&gt;&lt;/a&gt;Java Socket编程&lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;
+      &lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;最初是作为网络编程语言出现的，其对网络提供了高度的支持，而在网络编程中，使用最多的就是Socket。QQ、MSN都使用了Socket相关的技术。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;一、计算机网络基础&quot;&gt;&lt;a href=&quot;#一、计算机
     
     </summary>
     
