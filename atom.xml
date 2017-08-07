@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansam.cc/"/>
-  <updated>2017-08-07T14:18:27.443Z</updated>
+  <updated>2017-08-07T14:35:30.290Z</updated>
   <id>http://www.hansam.cc/</id>
   
   <author>
@@ -16,11 +16,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>javascript 基础 js类和原型</title>
+    <link href="http://www.hansam.cc/2017/08/09/javascript%20%E5%9F%BA%E7%A1%80%20js%20%E7%B1%BB%E5%92%8C%E5%8E%9F%E5%9E%8B/"/>
+    <id>http://www.hansam.cc/2017/08/09/javascript 基础 js 类和原型/</id>
+    <published>2017-08-09T14:28:40.000Z</published>
+    <updated>2017-08-07T14:35:30.290Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp; 一个函数可以看成一个类，原型是所有类都有的一个属性，原型的作用就是给这个类的每一个对象都添加一个统一的方法。</p>
+<hr>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">"http://www.w3.org/1999/xhtml"</span> <span class="attr">xml:lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span> = <span class="string">"text/javascript"</span>&gt;</span><span class="actionscript"></span></div><div class="line">    <span class="comment">//声明一个类</span></div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">Person</span><span class="params">(name,age)</span></span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">this</span>.name=name;</div><div class="line">        <span class="keyword">this</span>.age=age;</div><div class="line">    &#125;</div><div class="line">    <span class="comment">//使用原型给类添加方法</span></div><div class="line">    Person.prototype.show=<span class="function"><span class="keyword">function</span><span class="params">()</span></span></div><div class="line">    &#123;</div><div class="line">        alert(<span class="string">"我叫"</span>+<span class="keyword">this</span>.name+<span class="string">",今年"</span>+<span class="keyword">this</span>.age);</div><div class="line">    &#125;</div><div class="line">    <span class="comment">//创建两个对象</span></div><div class="line">    <span class="keyword">var</span> person1 =<span class="keyword">new</span> Person(<span class="string">'张三'</span>,<span class="number">20</span>);</div><div class="line">    <span class="keyword">var</span> person2 =<span class="keyword">new</span> Person(<span class="string">'李四'</span>,<span class="number">23</span>);</div><div class="line">    <span class="comment">//调用原型里面的方法</span></div><div class="line">    person1.show();</div><div class="line">    person2.show();</div><div class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">     </div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;emsp; 一个函数可以看成一个类，原型是所有类都有的一个属性，原型的作用就是给这个类的每一个对象都添加一个统一的方法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="http://www.hansam.cc/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java中的数字格式化类DecimalFormat</title>
+    <link href="http://www.hansam.cc/2017/08/08/Java%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%B1%BBDecimalFormat/"/>
+    <id>http://www.hansam.cc/2017/08/08/Java中的数字格式化类DecimalFormat/</id>
+    <published>2017-08-08T14:24:03.000Z</published>
+    <updated>2017-08-07T14:36:03.632Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp; 我们经常要将数字进行格式化，比如取2位小数，这是最常见的。Java 提供 DecimalFormat类，帮你用最快的速度将数字格式化为你需要的样子。下面是一个例子：</p>
+<figure class="highlight gauss"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line">import java.text.DecimalFormat;</div><div class="line">　　</div><div class="line">public class TestNumberFormat&#123;</div><div class="line">　　</div><div class="line">　　public static void main(<span class="keyword">String</span>[] args)&#123;</div><div class="line">　　　　double <span class="built_in">pi</span>=<span class="number">3.1415927</span>;　<span class="comment">//圆周率</span></div><div class="line">　　　　<span class="comment">//取一位整数</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"0"</span>).<span class="keyword">format</span>(<span class="built_in">pi</span>));　　　<span class="comment">//3</span></div><div class="line">　　　　<span class="comment">//取一位整数和两位小数</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"0.00"</span>).<span class="keyword">format</span>(<span class="built_in">pi</span>));　<span class="comment">//3.14</span></div><div class="line">　　　　<span class="comment">//取两位整数和三位小数，整数不足部分以0填补。</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"00.000"</span>).<span class="keyword">format</span>(<span class="built_in">pi</span>));<span class="comment">// 03.142</span></div><div class="line">　　　　<span class="comment">//取所有整数部分</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"#"</span>).<span class="keyword">format</span>(<span class="built_in">pi</span>));　　　<span class="comment">//3</span></div><div class="line">　　　　<span class="comment">//以百分比方式计数，并取两位小数</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"#.##%"</span>).<span class="keyword">format</span>(<span class="built_in">pi</span>));　<span class="comment">//314.16%</span></div><div class="line">　　</div><div class="line">　　　　long c=<span class="number">299792458</span>;　　<span class="comment">//光速</span></div><div class="line">　　　　<span class="comment">//显示为科学计数法，并取五位小数</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"#.#####E0"</span>).<span class="keyword">format</span>(c));　<span class="comment">//2.99792E8</span></div><div class="line">　　　　<span class="comment">//显示为两位整数的科学计数法，并取四位小数</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"00.####E0"</span>).<span class="keyword">format</span>(c));　<span class="comment">//29.9792E7</span></div><div class="line">　　　　<span class="comment">//每三位以逗号进行分隔。</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">",###"</span>).<span class="keyword">format</span>(c));　　　<span class="comment">//299,792,458</span></div><div class="line">　　　　<span class="comment">//将格式嵌入文本</span></div><div class="line">　　　　<span class="keyword">System</span>.out.println(<span class="keyword">new</span> DecimalFormat(<span class="string">"光速大小为每秒,###米。"</span>).<span class="keyword">format</span>(c));</div><div class="line">　　&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>DecimalFormat 类主要靠 # 和 0 两种占位符号来指定数字长度。0 表示如果位数不足则以 0 填充，# 表示只要有可能就把数字拉上这个位置。上面的例子包含了差不多所有的基本用法，如果你想了解更多，请参考 DecimalFormat 类的文档。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;emsp; 我们经常要将数字进行格式化，比如取2位小数，这是最常见的。Java 提供 DecimalFormat类，帮你用最快的速度将数字格式化为你需要的样子。下面是一个例子：&lt;/p&gt;
+&lt;figure class=&quot;highlight gauss&quot;&gt;&lt;table&gt;&lt;tr&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>简述负载均衡和CDN技术</title>
     <link href="http://www.hansam.cc/2017/08/07/%E7%AE%80%E8%BF%B0%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%92%8CCDN%E6%8A%80%E6%9C%AF/"/>
     <id>http://www.hansam.cc/2017/08/07/简述负载均衡和CDN技术/</id>
     <published>2017-08-07T14:17:12.000Z</published>
-    <updated>2017-08-07T14:18:27.443Z</updated>
+    <updated>2017-08-07T14:36:07.285Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;曾经见到知乎上有人问“为什么像facebook这类的网站需要上千个工程师维护？”，下面的回答多种多样，但总结起来就是：一个高性能的web系统需要从无数个角度去考虑他，大到服务器的布局，小到软件中某个文件的实现，甚至于某个循环内的运算如果出现不严谨都可能导致全盘崩溃。</p>
 <p>&emsp;上面提到web性能优化需要多个角度去考虑，我们无法考虑到所有的优化细节，但可以从我们已知的层面去优化，我们就先从网络层面说起。</p>
