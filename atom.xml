@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansam.cc/"/>
-  <updated>2017-11-06T12:43:49.940Z</updated>
+  <updated>2017-11-06T12:57:28.363Z</updated>
   <id>http://www.hansam.cc/</id>
   
   <author>
@@ -20,11 +20,9 @@
     <link href="http://www.hansam.cc/2017/11/06/%E5%A4%A9%E4%BD%BF%E6%8A%95%E8%B5%84%E3%80%81VC%E3%80%81PE%20%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://www.hansam.cc/2017/11/06/天使投资、VC、PE 的区别/</id>
     <published>2017-11-06T11:52:55.000Z</published>
-    <updated>2017-11-06T12:43:49.940Z</updated>
+    <updated>2017-11-06T12:57:28.363Z</updated>
     
-    <content type="html"><![CDATA[<blockquote>
-<p>简单来说，天使／VC／PE属于私募基金，体现了企业从创业初期到IPO之前的整个融资过程，属于一级市场，到公司上市后，企业走向二级市场，叫做公开募股，先看图：</p>
-</blockquote>
+    <content type="html"><![CDATA[<p>简单来说，天使／VC／PE属于私募基金，体现了企业从创业初期到IPO之前的整个融资过程，属于一级市场，到公司上市后，企业走向二级市场，叫做公开募股，先看图：</p>
 <h2 id=""><a href="#" class="headerlink" title=""></a><img src="/myimg/20171106/01.jpg" alt=""></h2><p>1）先从公司创业期的融资说起：一般来说，我们经常听到的就是风险投资（Venture Capital，简称为VC）和天使。天使：企业刚刚开始创立，进来的是天使。这个阶段，大多企业基本还是赔钱的。VC：传统来说，这也基本已经盈利了，才会引入VC，但现在好的项目也不一定，例如近期的知乎和摩拜。因此，当前阶段还是有一定风险的。所以叫风险投资。该过程可能有多轮，也就是我们常听的A轮、B轮、C轮和D轮，每轮可能有一个领投，多个跟投。</p>
 <p>2）上市前的融资：企业上市，也就是IPO（暂且先这样理解），这个阶段经常听到的是私募股权投资Private Equity，简称为PE。上市代表有巨大盈利空间，这个阶段的PE可以说是来分蛋糕的，也叫Pre-IPO。对投资方来说，此时的投资有一定保障，但不代表没有风险。</p>
 <p>3）上市后的融资：公司上市，也叫IPO，即首次公开募股Initial Public Offerings（IPO）指企业通过证券交易所首次公开向投资者增发股票，以期募集用于企业发展资金的过程。股票上市后融资差不多就是在二级市场交易了，但也不排除一级市场。</p>
@@ -34,10 +32,8 @@
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;简单来说，天使／VC／PE属于私募基金，体现了企业从创业初期到IPO之前的整个融资过程，属于一级市场，到公司上市后，企业走向二级市场，叫做公开募股，先看图：&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class
+      &lt;p&gt;简单来说，天使／VC／PE属于私募基金，体现了企业从创业初期到IPO之前的整个融资过程，属于一级市场，到公司上市后，企业走向二级市场，叫做公开募股，先看图：&lt;/p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
     
     </summary>
     
