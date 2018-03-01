@@ -118,7 +118,7 @@
     <link href="http://www.hansam.cc/2018/02/07/Intellij-IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/"/>
     <id>http://www.hansam.cc/2018/02/07/Intellij-IDEA快捷键整理/</id>
     <published>2018-02-07T04:03:08.000Z</published>
-    <updated>2018-02-07T04:08:32.651Z</updated>
+    <updated>2018-03-01T07:35:17.386Z</updated>
     
     <content type="html"><![CDATA[<pre><code>Intellij首当其冲的当然就是Intelligence智能！
 </code></pre><h4 id="实用快捷键"><a href="#实用快捷键" class="headerlink" title="实用快捷键"></a>实用快捷键</h4><hr>
@@ -174,6 +174,10 @@
 <tr>
 <td>Ctrl+E</td>
 <td>最近打开的文件</td>
+</tr>
+<tr>
+<td>Ctrl+I</td>
+<td>实现接口/抽象类方法</td>
 </tr>
 <tr>
 <td>Ctrl+J</td>
@@ -728,9 +732,9 @@
     </summary>
     
     
-      <category term="java" scheme="http://www.hansam.cc/tags/java/"/>
-    
       <category term="笔记" scheme="http://www.hansam.cc/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="java" scheme="http://www.hansam.cc/tags/java/"/>
     
   </entry>
   
